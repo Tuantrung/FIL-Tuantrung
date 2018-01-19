@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 Hello world
 I'm a simple man.
+=======
+Hello world
+>>>>>>> parent of 27537f0...  tuantrung.txt.txt change
