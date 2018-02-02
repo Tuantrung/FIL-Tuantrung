@@ -22,3 +22,13 @@
 ## 2. Bridged Networking
 
 <img scr="https://github.com/Tuantrung/FIL-Tuantrung/blob/master/New%20folder/Screenshot_2.png" >
+
+- **Bridged networking** kết nối một máy ảo với mạng sử dụng bộ điều hợp Ethernet của máy chủ lưu trữ
+- Kết nối mạng được thiết lập tự động nếu bạn chọn **Use bridged networking** trong **New Virtual Machine Wizard** hoặc nếu bạn chọn **typical**. Lựa chọn này chỉ có trên máy chủ Linux nếu bạn cho phép tùy chọn cầu nối mạng khi cài đặt VMware Workstation.
+- Nếu máy chủ của bạn đang ở trong một mạng Ethernet, đây thường là cách đơn giản nhất để cho phép máy ảo của bạn truy cập vào mạng đó. Máy chủ Linux và Windows có thể sử dụng **Bridge** để kết nối với mạng có dây. Ngoài ra, cầu nối mạng không dây được hỗ trợ cho máy chủ Windows.
+- Nếu bạn sử dụng **Bridge**, máy ảo của bạn cần có danh tính riêng trên mạng. Ví dụ, trên một mạng TCP / IP, máy ảo cần địa chỉ IP riêng của nó. Quản trị viên mạng của bạn có thể cho bạn biết địa chỉ IP có sẵn cho máy ảo của bạn và cài đặt mạng nào bạn nên đsử dụng trong hệ iều hành khách. Nói chung, hệ điều hành 'khách' của bạn có thể tự động nhận địa chỉ IP và các chi tiết mạng khác từ máy phục vụ DHCP hoặc bạn có thể cần cài đặt địa chỉ IP và các chi tiết khác theo cách thủ công trong hệ điều hành 'khách'.
+- Nếu bạn sử dụng **Bridge**, máy ảo là một người tham gia đầy đủ trong mạng. Nó có quyền truy cập vào các máy khác trên mạng và có thể được liên lạc bởi các máy khác trên mạng như thể nó là một máy tính vật lý trên mạng.
+- Lưu ý rằng nếu máy chủ được thiết lập để khởi động nhiều hệ điều hành và chạy một hoặc nhiều máy ảo trong máy ảo, bạn cần phải cấu hình từng hệ điều hành với một địa chỉ mạng duy nhất. Những người khởi động nhiều hệ điều hành thường chỉ định tất cả các hệ thống cùng một địa chỉ, bởi vì họ cho rằng chỉ có một hệ điều hành sẽ chạy cùng một lúc. Nếu bạn sử dụng một hoặc nhiều hệ điều hành trong một máy ảo, giả thiết này không còn đúng nữa.
+- Nếu bạn thực hiện một số lựa chọn khác trong **New Virtual Machine Wizard** và sau đó quyết định sử dụng **Bridge**, bạn có thể thực hiện thay đổi đó trong trình biên tập cài đặt máy ảo (**VM** > **Settings**).
+
+## 3. Host-Only Networking
