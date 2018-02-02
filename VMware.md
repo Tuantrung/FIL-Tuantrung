@@ -16,3 +16,4 @@ NAT cũng cho phép bạn kết nối với một mạng TCP / IP sử dụng b�
 <ul>
 Nếu bạn sử dụng NAT, máy ảo của bạn sẽ không có địa chỉ IP riêng trên mạng bên ngoài. Thay vào đó, một mạng riêng tư riêng được thiết lập trên máy chủ. Máy ảo của bạn nhận được một địa chỉ trên mạng đó từ máy chủ DHCP ảo VMware. Thiết bị NAT VMware truyền dữ liệu mạng giữa một hoặc nhiều máy ảo và mạng bên ngoài. Nó xác định các gói tin dữ liệu đến cho mỗi máy ảo và gửi chúng đến đúng đích.
 </ul>
+<ul>
