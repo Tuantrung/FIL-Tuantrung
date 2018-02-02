@@ -32,3 +32,14 @@
 - Nếu bạn thực hiện một số lựa chọn khác trong **New Virtual Machine Wizard** và sau đó quyết định sử dụng **Bridge**, bạn có thể thực hiện thay đổi đó trong trình biên tập cài đặt máy ảo (**VM** > **Settings**).
 
 ## 3. Host-Only Networking
+<img scr="https://github.com/Tuantrung/FIL-Tuantrung/blob/master/New%20folder/Screenshot_3.png" >
+
+- **Host-only networking** tạo ra một mạng hoàn toàn nằm trong máy chủ
+- **Host-only networking** chỉ được thiết lập tự động nếu bạn chọn **Use Host-only Networking** trong **New Virtual Machine Wizard**. Trên máy chủ Linux, lựa chọn này chỉ khả dụng nếu bạn kích hoạt tùy chọn mạng máy chủ lưu trữ chỉ khi bạn cài đặt **VMware Workstation**.
+- **Host-only networking** chỉ cung cấp kết nối mạng giữa máy ảo và máy chủ, sử dụng một bộ điều hợp Ethernet ảo hiển thị cho hệ điều hành máy chủ lưu trữ. Cách tiếp cận này có thể hữu ích nếu bạn cần thiết lập một mạng ảo bị cô lập.
+- **Routing and Connection sharing**
+<ul>
+<il> Nếu bạn cài đặt đúng phần mềm định tuyến hoặc proxy trên máy chủ của mình, bạn có thể thiết lập kết nối giữa bộ điều hợp Ethernet máy chủ ảo và một bộ điều hợp mạng vật lý trên máy chủ. Điều này cho phép bạn, ví dụ, để kết nối máy ảo với một Token Ring hoặc mạng không phải là Ethernet.
+</il>
+</ul>
+
