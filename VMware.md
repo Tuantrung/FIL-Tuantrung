@@ -1,6 +1,6 @@
 ### **3 CHẾ ĐỘ MẠNG TRONG VMWARE WORKSTATION 12**
 ## 1. NAT-Network Address Translation
-<img scr=https://imgur.com/a/WH01W>
+<img scr="https://imgur.com/a/WH01W">
 <ul> 
 NAT cung cấp một truy cập máy ảo tới các tài nguyên mạng sử dụng địa chỉ IP của máy chủ lưu trữ.
 </ul>
