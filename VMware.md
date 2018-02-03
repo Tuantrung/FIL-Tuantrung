@@ -2,7 +2,7 @@
 =======================================================================
 ## 1. NAT-Network Address Translation
 
-<img scr="https://github.com/Tuantrung/FIL-Tuantrung/blob/master/New%20folder/Screenshot_1.png" >
+<img scr="https://github.com/Tuantrung/FIL-Tuantrung/blob/master/New%20folder/Screenshot_1.png">
 
 
 - NAT cung cấp một truy cập máy ảo tới các tài nguyên mạng sử dụng địa chỉ IP của máy chủ lưu trữ.
@@ -21,7 +21,7 @@
 
 ## 2. Bridged Networking
 
-<img scr="https://github.com/Tuantrung/FIL-Tuantrung/blob/master/New%20folder/Screenshot_2.png" >
+<img scr="https://github.com/Tuantrung/FIL-Tuantrung/blob/master/New%20folder/Screenshot_2.png">
 
 - **Bridged networking** kết nối một máy ảo với mạng sử dụng bộ điều hợp Ethernet của máy chủ lưu trữ
 - Kết nối mạng được thiết lập tự động nếu bạn chọn **Use bridged networking** trong **New Virtual Machine Wizard** hoặc nếu bạn chọn **typical**. Lựa chọn này chỉ có trên máy chủ Linux nếu bạn cho phép tùy chọn cầu nối mạng khi cài đặt VMware Workstation.
@@ -32,7 +32,7 @@
 - Nếu bạn thực hiện một số lựa chọn khác trong **New Virtual Machine Wizard** và sau đó quyết định sử dụng **Bridge**, bạn có thể thực hiện thay đổi đó trong trình biên tập cài đặt máy ảo (**VM** > **Settings**).
 
 ## 3. Host-Only Networking
-<img scr="https://github.com/Tuantrung/FIL-Tuantrung/blob/master/New%20folder/Screenshot_3.png" >
+<img scr="https://github.com/Tuantrung/FIL-Tuantrung/blob/master/New%20folder/Screenshot_3.png">
 
 - **Host-only networking** tạo ra một mạng hoàn toàn nằm trong máy chủ
 - **Host-only networking** chỉ được thiết lập tự động nếu bạn chọn **Use Host-only Networking** trong **New Virtual Machine Wizard**. Trên máy chủ Linux, lựa chọn này chỉ khả dụng nếu bạn kích hoạt tùy chọn mạng máy chủ lưu trữ chỉ khi bạn cài đặt **VMware Workstation**.
