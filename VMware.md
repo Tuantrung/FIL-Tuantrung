@@ -14,7 +14,7 @@
 
 - NAT cung cấp một truy cập máy ảo tới các tài nguyên mạng sử dụng địa chỉ IP của máy chủ lưu trữ.
 
-- Kết nối dịch vụ địa chỉ mạng được thiết lập tự động nếu bạn theo đường dẫn **Custom** trong "New Virtual Machine Wizard" và chọn  **Use network address translation**
+- Kết nối dịch vụ địa chỉ mạng được thiết lập tự động nếu bạn theo đường dẫn **Custom** trong "**New Virtual Machine Wizard**" và chọn  **Use network address translation**
 
 - Nếu bạn muốn kết nối với Internet hoặc các mạng TCP / IP khác sử dụng mạng quay số (**dial-up networking**) hoặc kết nối băng thông rộng(**boardband connection**) của máy chủ và bạn không thể cung cấp cho máy ảo một địa chỉ IP trên mạng bên ngoài, NAT thường là cách dễ nhất để cung cấp cho máy ảo của bạn truy cập vào mạng đó. 
 
