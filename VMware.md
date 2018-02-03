@@ -1,10 +1,11 @@
 # **3 CHẾ ĐỘ MẠNG TRONG VMWARE WORKSTATION 12**
 
-##Mục lục
-* [**1. NAT-Network Address Translation**](##1)
+## Mục lục
+* [1. NAT-Network Address Translation](##1)
 
 =======================================================================
-##1. NAT-Network Address Translation
+<a name="1"></a>
+## 1. NAT-Network Address Translation
 
 <img src="https://imgur.com/a/Mk6mV">
 
@@ -23,7 +24,7 @@
 
 - Nếu bạn thực hiện một số lựa chọn khác trong New Virtual Machine Wizard và sau đó quyết định sử dụng NAT, bạn có thể thực hiện thay đổi đó trong trình biên tập cài đặt máy ảo (**VM** > **Settings**).
 
-##2. Bridged Networking
+## 2. Bridged Networking
 
 <img src="https://github.com/Tuantrung/FIL-Tuantrung/blob/master/New%20folder/Screenshot_2.png">
 
@@ -35,7 +36,7 @@
 - Lưu ý rằng nếu máy chủ được thiết lập để khởi động nhiều hệ điều hành và chạy một hoặc nhiều máy ảo trong máy ảo, bạn cần phải cấu hình từng hệ điều hành với một địa chỉ mạng duy nhất. Những người khởi động nhiều hệ điều hành thường chỉ định tất cả các hệ thống cùng một địa chỉ, bởi vì họ cho rằng chỉ có một hệ điều hành sẽ chạy cùng một lúc. Nếu bạn sử dụng một hoặc nhiều hệ điều hành trong một máy ảo, giả thiết này không còn đúng nữa.
 - Nếu bạn thực hiện một số lựa chọn khác trong **New Virtual Machine Wizard** và sau đó quyết định sử dụng **Bridge**, bạn có thể thực hiện thay đổi đó trong trình biên tập cài đặt máy ảo (**VM** > **Settings**).
 
-##3. Host-Only Networking
+## 3. Host-Only Networking
 <img src="https://github.com/Tuantrung/FIL-Tuantrung/blob/master/New%20folder/Screenshot_3.png">
 
 - **Host-only networking** tạo ra một mạng hoàn toàn nằm trong máy chủ
